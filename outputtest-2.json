@@ -1,0 +1,5 @@
+{
+    "one": "https://goog.nl/?q=https://www.test.nl",
+    "two": "https://goog.de/?q=https://www.test.nl",
+    "three": "https://goog.es/?q=https://www.test.nl"
+}
