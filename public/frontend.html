@@ -9,6 +9,9 @@
 </head>
 <body>
 <h1>Output urls</h1>
+
+<a href="/snelsteapi/frontend.html?url=https://yahoo.com">add queryparams (url = yahoo.com)</a><br><br><br>
+
 <form action="/frontend.html"  method="get">
     <input type="text" name="url" id="url" placeholder="url">
 </form>
@@ -48,7 +51,9 @@
 function searchShow(query){
     const domainUrl = `${query}`;
     const cleanDomainUrl = domainUrl.trimStart().trim()
-    const baseApiUrl = 'http://localhost:7890/?url='
+    
+    const baseApiUrl = 'https://us-central1-xml-sitemap-api.cloudfunctions.net/snelsteapi?url='
+    // const baseApiUrl = 'http://localhost:7890/?url='
     // const url = `http://localhost:7890/?url=${query}`;
     const url = baseApiUrl + cleanDomainUrl;
     fetch(url)

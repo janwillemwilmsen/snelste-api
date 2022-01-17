@@ -11,6 +11,8 @@ app.use(function (req, res, next) {
     next();
 });
 
+app.use(express.static('public'))
+
 
 // http://localhost:3000/?url=https://www.test.nl
 app.get('/', (req, res) =>{
