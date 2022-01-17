@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "npx functions-framework --target=hey",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +13,8 @@
   "dependencies": {
     "express": "^4.17.2",
     "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^2.1.0"
   }
 }

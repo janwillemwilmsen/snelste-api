@@ -1,11 +1,17 @@
 [
     {
-        "one": "https://goog.nl/?q=https://www.test.nl"
+        "testurl": "https://pagespeed.web.dev/report?url=https://www.test.nl"
     },
     {
-        "two": "https://goog.de/?q=https://www.test.nl"
+        "testurl": "https://wave.webaim.org/report#/https://www.test.nl"
     },
     {
-        "three": "https://goog.es/?q=https://www.test.nl"
+        "testurl": "https://securityheaders.com/?q=https://www.test.nl&followRedirects=on"
+    },
+    {
+        "testurl": "https://sitecheck.sucuri.net/results/https://www.test.nl"
+    },
+    {
+        "testurl": "https://internet.nl/site/https://www.test.nl"
     }
 ]
